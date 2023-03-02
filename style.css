@@ -1,0 +1,353 @@
+body {
+    background: #E5E5E5;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-top: 100px;
+    color: rgb(228, 140, 9);
+}
+
+.contenedor {
+    box-sizing: border-box;
+
+    position: relative;
+    width: 410px;
+    height: 724px;
+
+    top: 50%;
+    left: 50%;
+
+    background: #3D3D3D;
+    border: 4px solid rgba(35, 35, 35, 0.3);
+    box-shadow: 8px 9px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+
+.resultado{
+    position: absolute;
+    width: 373px;
+    height: 219px;
+    left: 15px;
+    top: 17px;
+}
+
+.mostrar {
+    font-size: xx-large;
+}
+
+.estilo2 {
+    position: absolute;
+    width: 219px;
+    height: 373px;
+    left: 92px;
+    top: -60px;
+
+    
+    background: rgba(61, 61, 61, 0.5);
+    mix-blend-mode: multiply;
+    filter: blur(27px);
+    border-radius: 0px;
+    transform: rotate(90deg);
+}
+
+.estilo1 {
+    position: absolute;
+    width: 410px;
+    height: 445px;
+    left: -4px;
+    top: 274px;
+
+    background: rgba(27, 24, 24, 0.8);
+    filter: blur(46.5px);
+    transform: rotate(-180deg);
+}
+
+.contenedorNumeros {
+    position: absolute;
+    width: 410px;
+    height: 445px;
+    left: -4px;
+    top: 274px;
+
+    background: linear-gradient(180deg, #3D3D3D 100%, #72727F 100%);
+    mix-blend-mode: overlay;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.numeros {
+    position: absolute;
+    width: 351px;
+    height: 400px;
+    left: 31px;
+    top: 23px;
+    mix-blend-mode: lighten;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.c{
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 0px;
+    top: 0px;
+    font-size: x-large;
+
+    background: #ffffff;
+    mix-blend-mode: screen;
+    border-radius: 12px;
+}
+.sumarDividir{
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 91px;
+    top: 0px;
+    font-size: xx-large;
+
+    background: #ffffff;
+    mix-blend-mode: screen;
+    border-radius: 12px;
+}
+
+.porcentaje{
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 190px;
+    top: 0px;
+    font-size: x-large;
+
+    background: #ffffff;
+    mix-blend-mode: screen;
+    border-radius: 12px;
+}
+
+.dividir{
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 282px;
+    top: 0px;
+    font-size: x-large;
+
+    background: #ffffff;
+    mix-blend-mode: screen;
+    border-radius: 12px;
+}
+
+.siete {
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 0px;
+    top: 80px;
+    font-size: x-large;
+
+    mix-blend-mode: normal;
+    font-size: large;
+    background: #9397a7;
+    mix-blend-mode: screen;
+    border-radius: 30px;
+}
+.ocho {
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 91px;
+    top: 80px;
+    font-size: x-large;
+
+    mix-blend-mode: normal;
+    font-size: large;
+    background: #9397a7;
+    mix-blend-mode: screen;
+    border-radius: 30px;
+}
+.nueve {  
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 190px;
+    top: 80px;
+    font-size: x-large;
+
+    mix-blend-mode: normal;
+    font-size: large;
+    background: #9397a7;
+    mix-blend-mode: screen;
+    border-radius: 30px;
+}
+.multiplicar {
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 282px;
+    top: 80px;
+    font-size: x-large;
+
+    background: #ffffff;
+    mix-blend-mode: screen;
+    border-radius: 12px;
+}
+
+.cuatro {
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 0px;
+    top: 160px;
+    font-size: x-large;
+
+    mix-blend-mode: normal;
+    font-size: large;
+    background: #9397a7;
+    mix-blend-mode: screen;
+    border-radius: 30px;
+}
+.cinco {
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 91px;
+    top: 160px;
+    font-size: x-large;
+
+    mix-blend-mode: normal;
+    font-size: large;
+    background: #9397a7;
+    mix-blend-mode: screen;
+    border-radius: 30px;
+}
+    
+
+.seis {
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 190px;
+    top: 160px;
+    font-size: x-large;
+
+    mix-blend-mode: normal;
+    font-size: large;
+    background: #9397a7;
+    mix-blend-mode: screen;
+    border-radius: 30px;
+}
+.menos {
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 282px;
+    top: 160px;
+    font-size: x-large;
+
+    background: #ffffff;
+    mix-blend-mode: screen;
+    border-radius: 12px;
+}
+
+
+.uno {
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 0px;
+    top: 240px;
+    font-size: x-large;
+
+    mix-blend-mode: normal;
+    font-size: large;
+    background: #9397a7;
+    mix-blend-mode: screen;
+    border-radius: 30px;
+}
+.dos {
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 91px;
+    top: 240px;
+    font-size: x-large;
+
+    mix-blend-mode: normal;
+    font-size: large;
+    background: #9397a7;
+    mix-blend-mode: screen;
+    border-radius: 30px;
+}
+.tres {
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 191px;
+    top: 240px;
+    font-size: x-large;
+
+    mix-blend-mode: normal;
+    font-size: large;
+    background: #9397a7;
+    mix-blend-mode: screen;
+    border-radius: 30px;
+}
+.sumar {
+    position: absolute;
+    width: 61px;
+    height: 62px;
+    left: 282px;
+    top: 240px;
+    font-size: x-large;
+
+    background: #ffffff;
+    mix-blend-mode: screen;
+    border-radius: 12px;
+}
+
+
+.cero {
+    position: absolute;
+    width: 158px;
+    height: 62px;
+    left: 0px;
+    top: 320px;
+    font-size: x-large;
+
+    mix-blend-mode: normal;
+    font-size: large;
+    background: #9397a7;
+    mix-blend-mode: screen;
+    border-radius: 30px;
+}
+
+.decimal {
+    position: absolute;
+    width: 89px;
+    height: 62px;
+    left: 180px;
+    top: 320px;
+    mix-blend-mode: normal;
+    font-size: x-large;
+
+    background: #9397a7;
+    mix-blend-mode: screen;
+    border-radius: 30px;
+}
+.igual {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 287px;
+    top: 327px;
+    font-size: x-large;
+    
+    background: #f57804;
+    mix-blend-mode: screen;
+    border-radius: 12px;
+}
